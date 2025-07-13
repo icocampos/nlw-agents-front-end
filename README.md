@@ -1,7 +1,3 @@
-# NLW Agents
-
-Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de agentes inteligentes na web.
-
 ## 🚀 Tecnologias
 
 - **React 19.1** - Biblioteca para interfaces de usuário
@@ -21,7 +17,7 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 - **Server State Management** - Gerenciamento de estado servidor com React Query
 - **Variant-based Components** - Componentes com variantes usando CVA
 - **Composition Pattern** - Padrão de composição com Radix Slot
-- **Path Aliasing** - Alias de caminhos (`@/` aponta para `src/`)
+- **Path Aliasing** - Alias de caminhos (@/ aponta para src/)
 
 ## ⚙️ Configuração do Projeto
 
@@ -34,22 +30,24 @@ Projeto desenvolvido durante um evento da Rocketseat para demonstrar o uso de ag
 
 1. Clone o repositório
 2. Instale as dependências:
-   ```bash
+   
+bash
    npm install
-   ```
+
 
 3. Execute o servidor de desenvolvimento:
-   ```bash
+   
+bash
    npm run dev
-   ```
 
-4. Acesse a aplicação em `http://localhost:5173`
+
+4. Acesse a aplicação em http://localhost:5173
 
 ### Scripts Disponíveis
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Preview do build de produção
+- npm run dev - Inicia o servidor de desenvolvimento
+- npm run build - Gera build de produção
+- npm run preview - Preview do build de produção
 
 ### Backend
 
@@ -57,10 +55,8 @@ O projeto consome uma API que deve estar rodando na porta 3333. Certifique-se de
 
 ## 🛠️ Estrutura do Projeto
 
-```
 src/
 ├── components/ui/    # Componentes de interface
 ├── pages/           # Páginas da aplicação
 ├── lib/             # Utilitários e configurações
 └── app.tsx          # Componente raiz
-``` 
